@@ -1,0 +1,12 @@
+import { calcularSoma } from './soma/soma.js';
+import { pertenceFibonacci } from './fibonacci/fibonacci.js';
+import { calcularFaturamento } from './faturamento/faturamento.js';
+import { calcularPercentual } from './faturamento_estado/faturamento_estado.js';
+import { inverterString } from './inverterString/inverterString.js';
+console.log("Soma dos primeiros 13 números:", calcularSoma());
+const numeroFibonacci = 8;
+console.log(pertenceFibonacci(numeroFibonacci));
+console.log(calcularFaturamento());
+console.log(calcularPercentual());
+const texto = "Hello, targetsistemas";
+console.log("Texto invertido:", inverterString(texto));
